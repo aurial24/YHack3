@@ -54,3 +54,23 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Setting up FASTAPI Backend
+
+# 1. Go into the backend folder
+cd backend
+
+# 2. Create a Python virtual environment (keeps your packages isolated)
+python -m venv venv
+
+# 3. Activate the virtual environment
+# On Mac/Linux:
+source venv/bin/activate
+# On Windows (Command Prompt):
+venv\Scripts\activate
+
+# 4. Install FastAPI and Uvicorn (the server that runs FastAPI)
+pip install fastapi uvicorn
+
+## Running the Backend
+uvicorn main:app --reload
