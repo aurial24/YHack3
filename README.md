@@ -26,19 +26,37 @@ You can start developing by editing the files inside the **app** directory. This
 # Setting up the Backend (FASTAPI)
 
 ## 1. Go into the backend folder
-cd backend
+
+   ```bash
+   cd backend
+   ```
 
 ## 2. Create a Python virtual environment (keeps your packages isolated)
-python -m venv venv
+
+   ```bash
+   python -m venv venv
+   ```
 
 ## 3. Activate the virtual environment
 ### On Mac/Linux:
-source venv/bin/activate
+
+   ```bash
+   source venv/bin/activate
+   ```
 ### On Windows (Command Prompt):
-venv\Scripts\activate
+
+   ```bash
+   venv\Scripts\activate
+   ```
 
 ## 4. Install FastAPI and Uvicorn (the server that runs FastAPI)
-pip install fastapi uvicorn
+
+   ```bash
+   pip install fastapi uvicorn
+   ```
 
 # Running the Backend
-uvicorn main:app --reload
+
+   ```bash
+   uvicorn main:app --reload
+   ```
