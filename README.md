@@ -1,16 +1,12 @@
-# Welcome to your Expo app 👋
+# Setting up and Running the Frontend (React Native Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
+## 1. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+## 2. Start the app
 
    ```bash
    npx expo start
@@ -27,7 +23,7 @@ You can start developing by editing the files inside the **app** directory. This
 
 
 
-# Setting up FASTAPI Backend
+# Setting up the Backend (FASTAPI)
 
 ## 1. Go into the backend folder
 cd backend
